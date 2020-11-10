@@ -7,7 +7,10 @@ public class dado{
         Scanner sc = new Scanner(System.in);
 
         int elDado;
-        int elJugador = 0;
+        int elJugador1 = 0;
+        int elJugador2 = 0;
+        int elJugador3 = 0;
+        int elJugador4 = 0;
         int limiteTablero;
         String interaccionJugador ="";
 
@@ -18,13 +21,23 @@ public class dado{
             System.out.println(" Pulsa para tirar un dado ");
             interaccionJugador = sc.nextLine();
             elDado = (int) (Math.random()*6+1);
-            System.out.println("Ha salido [" + elDado + "]");
-            elJugador = elJugador + elDado;
-            System.out.println("La posicion del jugador:  [" +  elJugador + "]");
+            elJugador1 = elJugador1 + elDado;
+            for (int i; i<=elJugador1; i ++;) {System.out.print("-")System.out.println("JP1:  [" +  elJugador1 + "]");}
+        
+            elDado = (int) (Math.random()*6+1);
+            elJugador2 = elJugador2 + elDado;
+            for (int i; i<=elJugador2; i ++;) {System.out.print("-")System.out.println("JP2:  [" +  elJugador2 + "]");}
 
-            
+            elDado = (int) (Math.random()*6+1);
+            elJugador3 = elJugador3 + elDado;
+            for (int i; i<=elJugador3; i ++;) {System.out.print("-")System.out.println("JP3:  [" +  elJugador3 + "]");}
+
+            elDado = (int) (Math.random()*6+1);
+            elJugador4 = elJugador4 + elDado;
+            for (int i; i<=elJugador4; i ++;) {System.out.print("-")System.out.println("JP3:  [" +  elJugador4 + "]");}
+
 
         } 
-        while ( elJugador<=limiteTablero);
+        while ();
     }
 }
