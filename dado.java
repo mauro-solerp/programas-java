@@ -22,6 +22,7 @@ public class dado{
             interaccionJugador = sc.nextLine();
             elDado = (int) (Math.random()*6+1);
             elJugador1 = elJugador1 + elDado;
+            System.out.println("")
             for (int i; i<=elJugador1; i ++;) {System.out.print("-")System.out.println("JP1:  [" +  elJugador1 + "]");}
         
             elDado = (int) (Math.random()*6+1);
