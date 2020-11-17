@@ -176,7 +176,6 @@ public class viaje_Marco{
             System.out.println("|       +---------------------------+"         );
             System.out.println("|       |Distancia Marco de la Madre|"         );
             System.out.println("|       +---------------------------+"         );
-
             System.out.println("| - - - - - - - - - - - - - - - - - - - - - -"      );
             System.out.print("|   m");
 			for (int i=0;i<distanciaParaDibujo;i=i+10){
