@@ -177,13 +177,22 @@ public class viaje_Marco{
             System.out.println("|       |Distancia Marco de la Madre|"         );
             System.out.println("|       +---------------------------+"         );
 
-            System.out.println("| - - - - - - - - - - - - - - - - - - - - - -"      );
-            System.out.print("|   m");
-			for (int i=0;i<distanciaParaDibujo;i=i+10){
-				System.out.print("_");
-			}
-			System.out.println("M");
+            System.out.println("| - - - - - - - - - - - - - - - - - - - - - -"   );
+            if(distanciaMarcoMadre>0){
+                System.out.print("|   m");
+                for (int i=0;i<distanciaParaDibujo;i=i+10){
+                    
+                    System.out.print("_");
+                    
+                }
+                System.out.println("M");
+            }
+            else if(distanciaMarcoMadre<= 0){
+                System.out.println("|");
+                System.out.println("|       MARCO ENCONTRO A SU MADRE!!!      ");
+            }
             System.out.println("|");
+           
             System.out.println("**********************************************"   );
 
 
