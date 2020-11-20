@@ -11,13 +11,11 @@ public class edificio{
         int espacio;
         int probailidadVentanaAbierta;
         int probailidadVentanaLuz;
-        boolean programState;
         
         plantas =  (int)(Math.random()*(10-5))+5;  // Se define el valor entre 10 y 5  
 
         System.out.println("Plantas = " + plantas);
 
-        programState = true;
 
 
         System.out.println("  +--------------+"); //for(int c = 0; c<ventanas; c++) {System.out.print("---");} System.out.println("+");
@@ -49,7 +47,8 @@ public class edificio{
             
 
         }
-        System.out.println("===================");
+        System.out.println("====================");
+
 
 
         
