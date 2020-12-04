@@ -48,6 +48,7 @@ public class parcial{
 
         for (int i = 0; i <= tiempoDia; i++){
 
+            
             System.out.println("Presiona para continuar ");
             interaccion = sc.nextLine();
             
