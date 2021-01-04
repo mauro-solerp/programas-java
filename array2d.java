@@ -24,7 +24,6 @@ public class array2d{
                 System.out.print(a[i][j]);
             }
             System.out.print(" ");
-            System.out.println(" ");
         }
 
     }
